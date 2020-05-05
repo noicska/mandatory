@@ -53,7 +53,7 @@ let proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 MoviesList.movies.forEach(movie=> {
     console.log(movie.Title);
     console.log(movie.YoutubeId);
-    let url = "http://www.omdbapi.com/?t="+movie.Title+"&apikey=2a3c4851";
+    let url = "http://www.omdbapi.com/?t="+movie.Title+"&apikey=cc52dfa0";
 
 // Embed youtube trailer
     const showVideo = document.createElement("iframe");
